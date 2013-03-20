@@ -7,6 +7,8 @@
 //
 
 #import "FBTestSessionExampleTests.h"
+#import "FBTestSession.h"
+#import "Facebook.h"
 
 @implementation FBTestSessionExampleTests
 
@@ -24,9 +26,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testFacebookTestSession
 {
-    STFail(@"Unit tests are not implemented yet in FBTestSessionExampleTests");
+    FBTestSession *fbSession = [FBTestSession sessionWithSharedUserWithPermissions:@[@"email"]];
 }
 
 @end

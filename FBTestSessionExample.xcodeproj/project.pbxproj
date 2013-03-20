@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A742D47AA124E508C1D0349 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 297314E4774B4777A3E4535C /* libPods.a */; };
 		94D9FFAF16F9A15D0078464B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFAE16F9A15D0078464B /* UIKit.framework */; };
 		94D9FFB116F9A15D0078464B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFB016F9A15D0078464B /* Foundation.framework */; };
 		94D9FFB316F9A15D0078464B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFB216F9A15D0078464B /* CoreGraphics.framework */; };
@@ -23,6 +24,12 @@
 		94D9FFD516F9A15D0078464B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFB016F9A15D0078464B /* Foundation.framework */; };
 		94D9FFDD16F9A15D0078464B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D9FFDB16F9A15D0078464B /* InfoPlist.strings */; };
 		94D9FFE016F9A15D0078464B /* FBTestSessionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9FFDF16F9A15D0078464B /* FBTestSessionExampleTests.m */; };
+		94D9FFEC16F9A6130078464B /* libPods-FBTestSessionExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFEB16F9A6130078464B /* libPods-FBTestSessionExampleTests.a */; };
+		94D9FFEE16F9A6FC0078464B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFED16F9A6FC0078464B /* Social.framework */; };
+		94D9FFF016F9A70E0078464B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFEF16F9A70E0078464B /* QuartzCore.framework */; };
+		94D9FFF216F9A7600078464B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFF116F9A7600078464B /* AdSupport.framework */; };
+		94D9FFF316F9A7C50078464B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFB216F9A15D0078464B /* CoreGraphics.framework */; };
+		94D9FFF416F9A7CC0078464B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9FFED16F9A6FC0078464B /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0503428536EE48C2834EA92D /* Pods-FBTestSessionExampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTestSessionExampleTests.xcconfig"; path = "Pods/Pods-FBTestSessionExampleTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		297314E4774B4777A3E4535C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C391160C9C4B749B5801D4 /* libPods-FBTestSessionExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBTestSessionExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D9FFAB16F9A15D0078464B /* FBTestSessionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTestSessionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D9FFAE16F9A15D0078464B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94D9FFB016F9A15D0078464B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,12 @@
 		94D9FFDC16F9A15D0078464B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94D9FFDE16F9A15D0078464B /* FBTestSessionExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBTestSessionExampleTests.h; sourceTree = "<group>"; };
 		94D9FFDF16F9A15D0078464B /* FBTestSessionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBTestSessionExampleTests.m; sourceTree = "<group>"; };
+		94D9FFE916F9A5200078464B /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		94D9FFEB16F9A6130078464B /* libPods-FBTestSessionExampleTests.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-FBTestSessionExampleTests.a"; path = "Pods/build/Release-iphoneos/libPods-FBTestSessionExampleTests.a"; sourceTree = "<group>"; };
+		94D9FFED16F9A6FC0078464B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		94D9FFEF16F9A70E0078464B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94D9FFF116F9A7600078464B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D9FFF216F9A7600078464B /* AdSupport.framework in Frameworks */,
+				94D9FFB316F9A15D0078464B /* CoreGraphics.framework in Frameworks */,
+				94D9FFF016F9A70E0078464B /* QuartzCore.framework in Frameworks */,
+				94D9FFEE16F9A6FC0078464B /* Social.framework in Frameworks */,
 				94D9FFAF16F9A15D0078464B /* UIKit.framework in Frameworks */,
 				94D9FFB116F9A15D0078464B /* Foundation.framework in Frameworks */,
-				94D9FFB316F9A15D0078464B /* CoreGraphics.framework in Frameworks */,
+				4A742D47AA124E508C1D0349 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D9FFF416F9A7CC0078464B /* Social.framework in Frameworks */,
+				94D9FFF316F9A7C50078464B /* CoreGraphics.framework in Frameworks */,
+				94D9FFEC16F9A6130078464B /* libPods-FBTestSessionExampleTests.a in Frameworks */,
 				94D9FFD316F9A15D0078464B /* SenTestingKit.framework in Frameworks */,
 				94D9FFD416F9A15D0078464B /* UIKit.framework in Frameworks */,
 				94D9FFD516F9A15D0078464B /* Foundation.framework in Frameworks */,
@@ -87,10 +110,17 @@
 		94D9FFA216F9A15D0078464B = {
 			isa = PBXGroup;
 			children = (
+				94D9FFF116F9A7600078464B /* AdSupport.framework */,
+				94D9FFEF16F9A70E0078464B /* QuartzCore.framework */,
+				94D9FFED16F9A6FC0078464B /* Social.framework */,
+				94D9FFEB16F9A6130078464B /* libPods-FBTestSessionExampleTests.a */,
+				94D9FFE916F9A5200078464B /* libPods.a */,
 				94D9FFB416F9A15D0078464B /* FBTestSessionExample */,
 				94D9FFD816F9A15D0078464B /* FBTestSessionExampleTests */,
 				94D9FFAD16F9A15D0078464B /* Frameworks */,
 				94D9FFAC16F9A15D0078464B /* Products */,
+				0503428536EE48C2834EA92D /* Pods-FBTestSessionExampleTests.xcconfig */,
+				E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,8 @@
 				94D9FFB016F9A15D0078464B /* Foundation.framework */,
 				94D9FFB216F9A15D0078464B /* CoreGraphics.framework */,
 				94D9FFD216F9A15D0078464B /* SenTestingKit.framework */,
+				34C391160C9C4B749B5801D4 /* libPods-FBTestSessionExampleTests.a */,
+				297314E4774B4777A3E4535C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +202,7 @@
 				94D9FFA716F9A15D0078464B /* Sources */,
 				94D9FFA816F9A15D0078464B /* Frameworks */,
 				94D9FFA916F9A15D0078464B /* Resources */,
+				239FC2EE6EB447518E1B9E9A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +221,7 @@
 				94D9FFCD16F9A15D0078464B /* Frameworks */,
 				94D9FFCE16F9A15D0078464B /* Resources */,
 				94D9FFCF16F9A15D0078464B /* ShellScript */,
+				83C97FBA4FD94155B20888DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +284,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		239FC2EE6EB447518E1B9E9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		83C97FBA4FD94155B20888DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FBTestSessionExampleTests-resources.sh\"\n";
+		};
 		94D9FFCF16F9A15D0078464B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,6 +442,7 @@
 		};
 		94D9FFE416F9A15D0078464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBTestSessionExample/FBTestSessionExample-Prefix.pch";
@@ -391,6 +454,7 @@
 		};
 		94D9FFE516F9A15D0078464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBTestSessionExample/FBTestSessionExample-Prefix.pch";
@@ -402,6 +466,7 @@
 		};
 		94D9FFE716F9A15D0078464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBTestSessionExample.app/FBTestSessionExample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -419,6 +484,7 @@
 		};
 		94D9FFE816F9A15D0078464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBTestSessionExample.app/FBTestSessionExample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -453,6 +519,7 @@
 				94D9FFE516F9A15D0078464B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D9FFE616F9A15D0078464B /* Build configuration list for PBXNativeTarget "FBTestSessionExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +528,7 @@
 				94D9FFE816F9A15D0078464B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,4 @@
+@interface PodsDummy_Pods_FBTestSessionExampleTests : NSObject
+@end
+@implementation PodsDummy_Pods_FBTestSessionExampleTests
+@end
