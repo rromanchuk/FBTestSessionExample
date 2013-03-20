@@ -466,7 +466,7 @@
 		};
 		94D9FFE716F9A15D0078464B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */;
+			baseConfigurationReference = 0503428536EE48C2834EA92D /* Pods-FBTestSessionExampleTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBTestSessionExample.app/FBTestSessionExample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -484,7 +484,7 @@
 		};
 		94D9FFE816F9A15D0078464B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F83D10059C4AFABB3C2A09 /* Pods.xcconfig */;
+			baseConfigurationReference = 0503428536EE48C2834EA92D /* Pods-FBTestSessionExampleTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBTestSessionExample.app/FBTestSessionExample";
 				FRAMEWORK_SEARCH_PATHS = (
